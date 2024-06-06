@@ -1,0 +1,226 @@
+.footer {
+  background-color: #000;
+
+  .footer-inner {
+    min-height: 100vh;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 7vw;
+
+    .box-1 {
+      width: 100%;
+      display: flex;
+      border-bottom: 1px solid #dadada;
+      padding-bottom: 5.5vw;
+
+      .left {
+        width: 50%;
+
+        h2 {
+          color: #fff;
+          text-transform: capitalize;
+          font-size: 90px;
+          font-family: sans-serif;
+          line-height: 1;
+          margin-top: 20px;
+        }
+      }
+
+      .right {
+        width: 30%;
+        margin-left: 260px;
+
+        .news-letter {
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #dadada;
+
+          h5 {
+            font-family: sans-serif;
+            font-size: 3vh;
+            color: #dadada;
+            margin-top: 10px
+          }
+
+          img {
+            margin-bottom: 20px;
+          }
+        }
+
+        .mail-box {
+          margin: 36px 0;
+
+          h6 {
+            color: #dadada;
+            font-size: 2.7vh;
+            font-family: sans-serif;
+            margin-bottom: 10px;
+          }
+
+          .mail {
+
+
+            h5 {
+              color: #fff;
+              font-family: sans-serif;
+              border: 2px solid #dadada;
+              display: inline-block;
+              padding: 1vh 2vh;
+              border-radius: 50px;
+              font-size: 3vh;
+              margin-top: 10px;
+
+              &:hover {
+                background-color: #dadada;
+                color: #000;
+                transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+              }
+
+            }
+          }
+        }
+
+        .social-media {
+          h5 {
+            color: #fff;
+            font-size: 24px;
+            font-family: sans-serif;
+            margin-bottom: 15px;
+          }
+
+          .content {
+            display: flex;
+            flex-wrap: wrap;
+            grid-column-gap: .8;
+            grid-row-gap: 1.2rem;
+
+
+            a {
+              padding: 0.8vh 2.0vh;
+              border: 1px solid #dadada;
+              margin-right: 10px;
+              font-size: 3vh;
+              border-radius: 20px;
+              text-transform: capitalize;
+              text-decoration: none;
+              color: #fff;
+              font-family: sans-serif;
+              // transition: smooth;
+
+              &:hover {
+                background-color: #dadada;
+                color: #000;
+                transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .box-2 {
+      padding: 4.5vw 0;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #3d3d3d;
+
+      .left {
+        display: flex;
+
+        .options {
+          margin-right: 80px;
+
+          h4 {
+            color: #fff;
+            font-family: "raleway", sans-serif;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: 1.2vw;
+          }
+
+          h5 {
+            text-transform: capitalize;
+            font-family: "raleway", sans-serif;
+            margin-bottom: 16px;
+            font-size: 1.8vh;
+
+            span {
+              color: #fff;
+              display: flex;
+              align-items: center;
+
+              svg {
+                height: 19px;
+                margin-right: 3px;
+              }
+            }
+
+            &:hover span {
+              color: #dadada;
+            }
+          }
+        }
+      }
+
+      .right {
+        color: #fff;
+
+
+        h6 {
+          color: #a3a3a3;
+          font-size: 15px;
+          font-family: "raleway", sans-serif;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+
+        }
+
+        h5 {
+          font-size: 18PX;
+          font-family: "raleway", sans-serif;
+          border-bottom: 1px solid #dadada;
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+
+        h2 {
+          font-family: "raleway", sans-serif;
+          font-size: 36px;
+          font-weight: 400;
+          text-transform: capitalize;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .box-3 {
+      display: flex;
+      justify-content: space-between;
+      padding: 5vw 0;
+
+      .left {
+        width: 50%;
+
+        h5 {
+          color: #fff;
+          font-family: "raleway", sans-serif;
+          font-size: 1.2vw;
+        }
+      }
+
+      .right {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        h5 {
+          color: #fff;
+          font-family: "raleway", sans-serif;
+          font-size: 1.2vw;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.heroSection {
+  background-color: #000;
+
+  .heroSection-inner {
+    height: 100vh;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 12vh;
+    text-align: center;
+
+    h1 {
+      font-size: 20vh;
+      display: flex;
+      color: #fff;
+      margin-bottom: 4vh;
+      font-family: "raleway", sans-serif;
+
+    }
+
+    p {
+      color: #fff;
+      font-family: "raleway", sans-serif;
+
+      font-size: 3.5vh;
+    }
+
+    .moving-div {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 20px;
+      overflow-x: hidden;
+      white-space: nowrap;
+
+      h2 {
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 32px;
+        font-family: "raleway", sans-serif;
+
+      }
+
+
+      .move {
+        white-space: nowrap;
+        display: inline-block;
+        animation: move_box;
+        animation-duration: 50s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        position: relative;
+
+        &::after {
+          content: "";
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: black;
+          opacity: .5;
+        }
+
+        img {
+          height: 50px;
+          width: 100px;
+          margin-right: 20px;
+        }
+
+      }
+
+      @keyframes move_box {
+        0% {
+          transform: translateX(0);
+        }
+
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    }
+  }
+}

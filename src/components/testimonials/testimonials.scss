@@ -1,0 +1,101 @@
+.testimonials {
+  background-color: #000;
+
+  .testimonials-inner {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 6vw;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      width: 35%;
+
+      h6 {
+        font-size: 1.6vw;
+        color: #fff;
+        padding-bottom: 3.6vw;
+        font-family: "raleway", sans-serif;
+
+        position: sticky;
+        top: 10%;
+
+        h2 {
+          font-size: 3vw;
+          color: #fff;
+          font-family: "raleway", sans-serif;
+          margin-top: 16vh;
+        }
+
+        p {
+          font-size: .8vw;
+          color: #fff;
+          font-family: "raleway", sans-serif;
+          margin-top: 15vw;
+
+
+        }
+      }
+
+
+
+
+    }
+
+    .right {
+      width: 50%;
+      margin-top: 3.8vw;
+      overflow-y: hidden;
+
+      .reviews {
+        padding-top: 3.5vh;
+        padding-bottom: 5vh;
+
+        &:hover {
+          border-top: 2px solid #dadada;
+          border-bottom: 2px solid #dadada;
+        }
+
+        h6 {
+          color: #fff;
+          font-size: 1vw;
+          font-family: "raleway", sans-serif;
+          margin-bottom: 3vw;
+        }
+
+        p {
+          color: #fff;
+          font-size: 1.3vw;
+          font-family: "raleway", sans-serif;
+        }
+
+        .people {
+          margin-top: 4.6vh;
+          display: flex;
+
+          img {
+            height: 70px;
+            border-radius: 50%;
+          }
+
+          .desination {
+            margin-top: 10px;
+            margin-left: 20px;
+
+            h3 {
+              color: #fff;
+              font-family: "raleway", sans-serif;
+              padding-bottom: 10px;
+            }
+
+            h6 {
+              color: #fff;
+              font-family: "raleway", sans-serif
+            }
+          }
+        }
+      }
+    }
+  }
+}
